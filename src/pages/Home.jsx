@@ -22,7 +22,7 @@ function Home() {
   }, []);
 
   /**
-   * handles task creation and updation
+   * WIll handle task creation and updation
    * @param {Object} taskData- Task Data containing title and description
    */
 
@@ -44,7 +44,7 @@ function Home() {
   };
 
   /**
-   * Toggle task completion
+   * handle task completion status
    * @param {string} id- Task Id
    *
    */
@@ -56,7 +56,7 @@ function Home() {
     }
   };
   /**
-   * Edit tasks
+   * Handle editing of a task
    * @param {Object} task=Task object to edit
    */
 
@@ -65,7 +65,7 @@ function Home() {
   };
 
   /**
-   * Delete Task
+   * Handle deletion of a task
    * @param {string} id
    */
 
